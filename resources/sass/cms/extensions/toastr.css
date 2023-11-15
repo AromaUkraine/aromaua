@@ -1,0 +1,24 @@
+#toast-container > div {
+    opacity: 0.9;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    filter: alpha(opacity=90);
+    max-width: none;
+}
+.toast-container > div {
+    box-shadow: none !important;
+}
+.toast {
+    background-color: #5a8dee !important;
+}
+.toast-success {
+    background-color: #39da8a !important;
+}
+.toast-error {
+    background-color: #ff5b5c !important;
+}
+.toast-info {
+    background-color: #00cfdd !important;
+}
+.toast-warning {
+    background-color: #fdac41 !important;
+}

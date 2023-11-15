@@ -1,0 +1,13 @@
+{
+    "name": "Article",
+    "alias": "article",
+    "description": "Статьи. Категории статей.",
+    "component": "page",
+    "keywords": [],
+    "providers": [
+        "Modules\\Article\\Providers\\ArticleServiceProvider"
+    ],
+    "aliases": [],
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,1356 @@
+﻿[
+    {
+        "categories": [
+            {
+                "code_1c": "000000261",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Отдушки для Бытовой химии"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": 0,
+                "columns": [],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000262",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Средства для стирки"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": "000000261",
+                "columns": [],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000003",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "1 Стиральный порошок"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000262",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000256",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "1.1 Отдушки для стирального порошка. Контратипы известных брендовых ароматов"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000262",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000162",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "2  Отдушки для жидких средств для стирки (жидкий стиральный порошок)"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000262",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000007",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "7 Отдушки для кондиционеров для белья "
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000262",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000258",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "30 Отдушки для кислородного отбеливателя"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000261",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000269",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Отдушки для агрессивных сред"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": "000000261",
+                "columns": [],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000006",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "4 Отдушки для кислой среды"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000269",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000008",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "5 Отдушки для щелочной среды"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000269",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000122",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "6 Отдушки для гипохлорита (серия 10 IPA)"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000269",
+                "columns": [
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000246",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "26 Отдушки для средств для мытья полов"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000261",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000263",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Отдушки для маскировки запахов растворителей"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": 0,
+                "columns": [],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000005",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "3 Отдушки для маскировки запаха изопропилового спирта (От 20% Массовых), Серия PLI"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000263",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000125",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "14 Отдушки для маскировки запаха растворителей Уайт-спирит и прочие (серия БАЗА)"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000263",
+                "columns": [
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000010",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "9 Отдушки водорастворимые (серия PLI)"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": 0,
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000264",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Отдушки для косметики"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": 0,
+                "columns": [],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000213",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "19 Отдушки для зубных паст и ополаскивателей полости рта"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000264",
+                "columns": [
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000228",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "21 Отдушки для шампуней и кондиционеров для волос"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000264",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000245",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "25 Отдушки для гелей для душа"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000264",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000243",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "23 Отдушки в косметические крема"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000264",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000257",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "34 Порошкообразные отдушки на основе талька для косметической пудры  (Версия PDT)"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000264",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000255",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "27 Отдушки для репеллентов на основе натуральных эфирных масел"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000264",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000270",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Отдушки для детской косметики"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": "000000264",
+                "columns": [],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000218",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "20 Отдушки Безаллергенные (гипоаллергенные) отдушки - Серия HPA"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000270",
+                "columns": [
+                    {
+                        "name": "Cтандарна",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000271",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Отдушки для туалетного мыла"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": 0,
+                "columns": [],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000004",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "17 Отдушки для туалетного мыла"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000271",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000244",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "18 Отдушки для туалетного мыла  класса\"Люкс\""
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000271",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000132",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Отдушки для мыла ручной работы"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": 0,
+                "columns": [
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000247",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Автоароматизаторы, Новая коллекция"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": 0,
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000012",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "10 Отдушки для авто ароматизаторов"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000247",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000123",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "12 Отдушки для автоароматизаторов типа \"Бочонок\" (cерия CAF)"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000247",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000266",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Полимерная гранула для Саше"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000247",
+                "columns": [],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000272",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Отдушки для освежителей воздуха"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": 0,
+                "columns": [],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000016",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "11 Отдушки для освежителей воздуха в аэрозольной упаковке, серия MDB"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000272",
+                "columns": [
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000124",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "13 Отдушки для освежителей воздуха на водной основе (тригерные, серия EGD)"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000272",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000267",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Отдушки парфюмерные"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": 0,
+                "columns": [],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000009",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "8. Парфюмерное направление.Отдушки для одеколонов и туалетных вод"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000267",
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 3
+                    },
+                    {
+                        "name": "ТипАром",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 1
+            },
+            {
+                "code_1c": "000000250",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "8.1 Парфюмерное направление. Контратипы известных брендовых ароматов"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": "000000267",
+                "columns": [
+                    {
+                        "name": "ТипАром",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 1
+            },
+            {
+                "code_1c": "000000268",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Отдушки для дезинфицирующих средств и антисептиков"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": 0,
+                "columns": [],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000133",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "16 Отдушки для свечей (Серия MMH)"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": 0,
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000253",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Абсолюты эфирных масел"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": 0,
+                "columns": [
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000013",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Душистые вещества"
+                    }
+                ],
+                "Parent": 0,
+                "columns": [
+                    {
+                        "name": "CAS Номер",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000002",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Общий прайс на жидкие отдушки"
+                    }
+                ],
+                "documentation": [
+                    "Паспорт качества",
+                    "Лист безопасности",
+                    "Спецификация",
+                    "Лист аллергенов",
+                    "Сертификат IFRA"
+                ],
+                "langDocumentation": [
+                    "en",
+                    "ru",
+                    "uk"
+                ],
+                "Parent": 0,
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000220",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Отдушки серии \"ЭКОНОМ\""
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": 0,
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000247",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Автоароматизаторы, Новая коллекция"
+                    }
+                ],
+                "documentation": [
+                    "Лист аллергенов",
+                    "Лист безопасности",
+                    "Паспорт качества",
+                    "Сертификат IFRA",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "uk",
+                    "ru",
+                    "en"
+                ],
+                "Parent": 0,
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Усиленная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000276",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Специальные продукты для парфюмерии и ароматизаторов"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": 0,
+                "columns": [
+                    {
+                        "name": "Стандартная",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            }
+        ]
+    }
+]

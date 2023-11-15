@@ -1,0 +1,17 @@
+{
+    "name": "Synchronize",
+    "alias": "synchronize",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Synchronize\\Providers\\SynchronizeServiceProvider",
+        "Modules\\Synchronize\\Providers\\CommandServiceProvider",
+        "Modules\\Synchronize\\Providers\\EventServiceProvider",
+        "Modules\\Synchronize\\Providers\\ObserveServiceProvider",
+        "Modules\\Synchronize\\Providers\\ProductServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

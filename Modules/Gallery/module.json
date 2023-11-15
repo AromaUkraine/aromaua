@@ -1,0 +1,16 @@
+{
+    "name": "Gallery",
+    "alias": "gallery",
+    "description": "Создание галлереи, фото-видео",
+    "component": "page",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Gallery\\Providers\\GalleryServiceProvider",
+        "Modules\\Gallery\\Providers\\EventServiceProvider",
+        "Modules\\Gallery\\Providers\\ObserveServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

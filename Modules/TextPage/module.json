@@ -1,0 +1,14 @@
+{
+    "name": "TextPage",
+    "alias": "textpage",
+    "description": "Модуль текстовых страниц",
+    "component": "page",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\TextPage\\Providers\\TextPageServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

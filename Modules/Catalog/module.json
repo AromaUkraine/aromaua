@@ -1,0 +1,16 @@
+{
+    "name": "Catalog",
+    "alias": "catalog",
+    "description": "Каталог.",
+    "component": "page",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Catalog\\Providers\\CatalogServiceProvider",
+        "Modules\\Catalog\\Providers\\EventServiceProvider",
+        "Modules\\Catalog\\Providers\\CommandServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

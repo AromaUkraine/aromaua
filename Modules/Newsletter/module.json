@@ -1,0 +1,14 @@
+{
+    "name": "Newsletter",
+    "alias": "newsletter",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Newsletter\\Providers\\NewsletterServiceProvider",
+        "Modules\\Newsletter\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Banner",
+    "alias": "banner",
+    "description": "Создание баннеров, слайдеров",
+    "component": "page",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Banner\\Providers\\BannerServiceProvider",
+        "Modules\\Banner\\Providers\\EventServiceProvider",
+        "Modules\\Banner\\Providers\\ObserveServiceProvider"
+    ],
+    "aliases": [],
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'icomoon';
+  //src: url('../../fonts');
+  src:  url('./icomoon.eot?z3yxpq');
+  src:  url('./icomoon.eot?z3yxpq#iefix') format('embedded-opentype'),
+    url('./icomoon.ttf?z3yxpq') format('truetype'),
+    url('./icomoon.woff?z3yxpq') format('woff'),
+    url('./icomoon.svg?z3yxpq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bag:before {
+  content: "\e900";
+}
+.icon-basket:before {
+  content: "\e901";
+}
+.icon-burger:before {
+  content: "\e902";
+}
+.icon-clock:before {
+  content: "\e903";
+}
+.icon-close:before {
+  content: "\e904";
+}
+.icon-close-remove:before {
+  content: "\e905";
+}
+.icon-down:before {
+  content: "\e906";
+}
+.icon-error:before {
+  content: "\e907";
+}
+.icon-heart:before {
+  content: "\e908";
+}
+.icon-mail:before {
+  content: "\e909";
+}
+.icon-marker:before {
+  content: "\e90a";
+}
+.icon-marker-2:before {
+  content: "\e90b";
+}
+.icon-mobile:before {
+  content: "\e90c";
+}
+.icon-next:before {
+  content: "\e90d";
+}
+.icon-next-arrow:before {
+  content: "\e90e";
+}
+.icon-notebook:before {
+  content: "\e90f";
+}
+.icon-paws:before {
+  content: "\e910";
+}
+.icon-phone:before {
+  content: "\e911";
+}
+.icon-phone-contact:before {
+  content: "\e912";
+}
+.icon-prev:before {
+  content: "\e913";
+}
+.icon-prev-arrow:before {
+  content: "\e914";
+}
+.icon-search:before {
+  content: "\e915";
+}
+.icon-truck:before {
+  content: "\e916";
+}
+.icon-truck-marker:before {
+  content: "\e917";
+}
+.icon-up:before {
+  content: "\e918";
+}
+.icon-user:before {
+  content: "\e919";
+}
+.icon-user-main:before {
+  content: "\e91a";
+}
+.icon-instagram:before {
+  content: "\e91b";
+}
+.icon-google:before {
+  content: "\e91c";
+}
+.icon-facebook-o:before {
+  content: "\e91d";
+}
+.icon-facebook:before {
+  content: "\e91e";
+}
+.icon-arrow-up:before {
+  content: "\e91f";
+}
+.icon-arrow-right:before {
+  content: "\e920";
+}
+.icon-plus:before {
+  content: "\e921";
+}
+.icon-minus:before {
+  content: "\e922";
+}
+.icon-accept:before {
+  content: "\e923";
+}
+.icon-stars:before {
+  content: "\e924";
+}
+.icon-shipping:before {
+  content: "\e925";
+}
+.icon-disslike:before {
+  content: "\e926";
+}
+.icon-like:before {
+  content: "\e927";
+}
+.icon-order-1:before {
+  content: "\e928";
+}
+.icon-order-2:before {
+  content: "\e929";
+}
+.icon-order-3:before {
+  content: "\e92a";
+}
+.icon-order-4:before {
+  content: "\e92b";
+}

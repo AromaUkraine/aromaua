@@ -1,0 +1,225 @@
+version: "3"
+
+services:
+  mariadb:
+    image: wodby/mariadb:$MARIADB_TAG
+    container_name: "${PROJECT_NAME}_mariadb"
+    stop_grace_period: 30s
+    environment:
+      MYSQL_ROOT_PASSWORD: $DB_ROOT_PASSWORD
+      MYSQL_DATABASE: $DB_NAME
+      MYSQL_USER: $DB_USER
+      MYSQL_PASSWORD: $DB_PASSWORD
+#    volumes:
+#      - ./mariadb-init:/docker-entrypoint-initdb.d # Place init .sql file(s) here.
+#      - /path/to/mariadb/data/on/host:/var/lib/mysql # Use bind mount
+#    ports:
+#      - '3306:3306' # Specify a port for a world (before a colon).
+    networks:
+      - internal
+
+  php:
+#    image: donostapenko/php:$PHP_TAG
+#    image: wodby/drupal-php:$PHP_TAG
+    container_name: "${PROJECT_NAME}_php"
+    environment:
+#      PHP_SENDMAIL_PATH: /usr/sbin/sendmail -t -i -S opensmtpd:25
+      DB_HOST: $DB_HOST
+      DB_PORT: $DB_PORT
+      DB_USER: $DB_USER
+      DB_PASSWORD: $DB_PASSWORD
+      DB_NAME: $DB_NAME
+      DB_DRIVER: $DB_DRIVER
+      PHP_FPM_USER: wodby
+      PHP_FPM_GROUP: wodby
+      COLUMNS: 80 # Set 80 columns for docker exec -it.
+      ## Read instructions at https://wodby.com/docs/stacks/php/local/#xdebug
+      PHP_XDEBUG: 1
+      PHP_XDEBUG_DEFAULT_ENABLE: 1
+      PHP_XDEBUG_REMOTE_CONNECT_BACK: 1
+      PHP_IDE_CONFIG: serverName=my-ide
+      PHP_XDEBUG_IDEKEY: "my-ide"
+      XDEBUG_CONFIG: "remote_host=192.168.220.1 remote_enable=1"
+#      PHP_XDEBUG_REMOTE_HOST: host.docker.internal # Docker 18.03+ Mac/Win
+#      PHP_XDEBUG_REMOTE_HOST: 172.17.0.1 # Linux
+#      PHP_XDEBUG_REMOTE_HOST: 10.254.254.254 # macOS, Docker < 18.03
+#      PHP_XDEBUG_REMOTE_HOST: 10.0.75.1 # Windows, Docker < 18.03
+#      PHP_XDEBUG_REMOTE_LOG: /tmp/php-xdebug.log
+    volumes:
+      - ./:/var/www/html
+      - ./docker/php/php.ini:/usr/local/etc/php/conf.d/php.ini
+      - ./docker/php/docker-php-ext-memcache.ini:/usr/local/etc/php/conf.d/docker-php-ext-memcache.ini
+#      - /etc/timezone:/etc/timezone:ro
+#      - /etc/localtime:/etc/localtime:ro
+    networks:
+      - internal
+
+  apache:
+    image: wodby/apache:$APACHE_TAG
+    container_name: "${PROJECT_NAME}_apache"
+    depends_on:
+      - php
+    environment:
+      APACHE_LOG_LEVEL: debug
+      APACHE_BACKEND_HOST: php
+      APACHE_VHOST_PRESET: php
+      APACHE_DOCUMENT_ROOT: /var/www/html/public
+      APACHE_TIMEOUT: 6000
+      APACHE_FCGI_PROXY_TIMEOUT: 6000
+    volumes:
+      - ./:/var/www/html
+# For macOS users (https://wodby.com/docs/stacks/drupal/local#docker-for-mac)
+#      - ./:/var/www/html:cached # User-guided caching
+#      - docker-sync:/var/www/html # Docker-sync
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.${PROJECT_NAME}_apache.entrypoints=https"
+      - "traefik.http.routers.${PROJECT_NAME}_apache.rule=Host(`${PROJECT_BASE_URL}`)"
+      - "traefik.http.routers.${PROJECT_NAME}_apache.tls=true"
+      - "traefik.http.routers.${PROJECT_NAME}_apache.tls.certresolver=letsEncrypt"
+      - "traefik.docker.network=traefik-network"
+    networks:
+      - traefik-network
+      - internal
+
+#  nginx:
+#    image: wodby/nginx:$NGINX_TAG
+#    container_name: "${PROJECT_NAME}_nginx"
+#    depends_on:
+#      - php
+#    environment:
+#      NGINX_STATIC_OPEN_FILE_CACHE: "off"
+#      NGINX_ERROR_LOG_LEVEL: debug
+#      NGINX_BACKEND_HOST: php
+#      NGINX_SERVER_ROOT: /var/www/html/public
+#      NGINX_VHOST_PRESET: $NGINX_VHOST_PRESET
+##      NGINX_DRUPAL_FILE_PROXY_URL: http://example.com
+#    volumes:
+#      - ./:/var/www/html
+## For macOS users (https://wodby.com/docs/stacks/drupal/local#docker-for-mac)
+##      - ./:/var/www/html:cached # User-guided caching
+##      - docker-sync:/var/www/html # Docker-sync
+#    labels:
+#      - "traefik.enable=true"
+#      - "traefik.http.routers.${PROJECT_NAME}_nginx.entrypoints=https"
+#      - "traefik.http.routers.${PROJECT_NAME}_nginx.rule=Host(`${PROJECT_BASE_URL}`)"
+#      - "traefik.http.routers.${PROJECT_NAME}_nginx.tls=true"
+#      - "traefik.http.routers.${PROJECT_NAME}_nginx.tls.certresolver=letsEncrypt"
+#      - "traefik.docker.network=traefik-network"
+#    networks:
+#      - traefik-network
+#      - internal
+
+#  postgres:
+#    image: wodby/postgres:$POSTGRES_TAG
+#    container_name: "${PROJECT_NAME}_postgres"
+#    stop_grace_period: 30s
+#    environment:
+#      POSTGRES_PASSWORD: $DB_PASSWORD
+#      POSTGRES_DB: $DB_NAME
+#      POSTGRES_USER: $DB_USER
+#    volumes:
+#      - ./postgres-init:/docker-entrypoint-initdb.d # Place init file(s) here.
+#      - /path/to/postgres/data/on/host:/var/lib/postgresql/data # Use bind mount
+#    networks:
+#      - internal
+
+#  redis:
+#    container_name: "${PROJECT_NAME}_redis"
+#    image: wodby/redis:$REDIS_TAG
+#    networks:
+#      - internal
+#
+#  adminer:
+#    container_name: "${PROJECT_NAME}_adminer"
+#    image: wodby/adminer:$ADMINER_TAG
+#    environment:
+#      # For PostgreSQL:
+##      ADMINER_DEFAULT_DB_DRIVER: pgsql
+#      ADMINER_DEFAULT_DB_HOST: $DB_HOST
+#      ADMINER_DEFAULT_DB_NAME: $DB_NAME
+#    labels:
+#      - "traefik.enable=true"
+#      - "traefik.http.routers.${PROJECT_NAME}_adminer.entrypoints=https"
+#      - "traefik.http.routers.${PROJECT_NAME}_adminer.rule=Host(`adminer.${PROJECT_BASE_URL}`)"
+#      - "traefik.http.routers.${PROJECT_NAME}_adminer.tls=true"
+#      - "traefik.http.routers.${PROJECT_NAME}_adminer.tls.certresolver=letsEncrypt"
+#      - "traefik.docker.network=traefik-network"
+#    networks:
+#      - traefik-network
+#      - internal
+
+  pma:
+    image: phpmyadmin/phpmyadmin
+    container_name: "${PROJECT_NAME}_pma"
+    environment:
+      PMA_HOST: $DB_HOST
+      PMA_USER: $DB_USER
+      PMA_PASSWORD: $DB_PASSWORD
+      PHP_UPLOAD_MAX_FILESIZE: 1G
+      PHP_MAX_INPUT_VARS: 1G
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.${PROJECT_NAME}_pma.entrypoints=https"
+      - "traefik.http.routers.${PROJECT_NAME}_pma.rule=Host(`pma.${PROJECT_BASE_URL}`)"
+      - "traefik.http.routers.${PROJECT_NAME}_pma.tls=true"
+      - "traefik.http.routers.${PROJECT_NAME}_pma.tls.certresolver=letsEncrypt"
+      - "traefik.docker.network=traefik-network"
+    networks:
+      - traefik-network
+      - internal
+
+#  memcached:
+#    container_name: "${PROJECT_NAME}_memcached"
+#    image: wodby/memcached:$MEMCACHED_TAG
+#    networks:
+#      - internal
+#
+#  opensmtpd:
+#    container_name: "${PROJECT_NAME}_opensmtpd"
+#    image: wodby/opensmtpd:$OPENSMTPD_TAG
+#    environment:
+#      RELAY_HOST: $MAIL_HOST
+#      RELAY_USER: $MAIL_USER
+#      RELAY_PASSWORD: $MAIL_PASSWORD
+#      RELAY_PORT: $MAIL_PORT
+#    networks:
+#      - internal
+
+  mailhog:
+    image: mailhog/mailhog
+    container_name: "${PROJECT_NAME}_mailhog"
+  #    logging:
+  #      driver: 'none'  # disable saving logs
+  #    ports:
+  #      - 1025:1025 # smtp server
+  #      - 8025:8025 # web ui
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.${PROJECT_NAME}_mailhog.entrypoints=https"
+      - "traefik.http.routers.${PROJECT_NAME}_mailhog.rule=Host(`mailhog.${PROJECT_BASE_URL}`)"
+      - "traefik.http.routers.${PROJECT_NAME}_mailhog.tls=true"
+      - "traefik.http.routers.${PROJECT_NAME}_mailhog.tls.certresolver=letsEncrypt"
+      - "traefik.docker.network=traefik-network"
+      - "traefik.http.services.${PROJECT_NAME}_mailhog.loadbalancer.server.port=8025"
+    networks:
+      - traefik-network
+      - internal
+
+networks:
+  traefik-network:
+    external:
+      name: traefik-network
+#  internal:
+#    driver: bridge
+#    ipam:
+#      driver: default
+#      config:
+#        - subnet: 192.168.220.0/28
+
+#volumes:
+## Docker-sync for macOS users
+#  docker-sync:
+#    external: true
+## For Xdebug profiler
+#  files:

@@ -1,0 +1,148 @@
+// Variables
+@import 'variables';
+
+@import "../../fonts/font-awesome/css/all.css";
+@import "../../fonts/font-awesome/css/fontawesome.css";
+
+// DataTables
+@import "~datatables.net-bs4/css/dataTables.bootstrap4.css";
+@import "~datatables.net-buttons-bs4/css/buttons.bootstrap4.css";
+
+//Select2
+@import "~select2-theme-bootstrap4/dist/select2-bootstrap.min.css";
+@import "~select2/dist/css/select2.min.css";
+
+// Toastr
+@import "~toastr/toastr";
+@import "./extensions/toastr";
+
+//JSTree
+@import "~jstree/dist/themes/default/style.css";
+@import "./extensions/jstree";
+
+//PageLoader
+@import "./extensions/page-loader";
+
+//Editable bootstrap 4
+@import "../../bootstrap4-editable/css/bootstrap-editable.css";
+
+//DropZone
+@import "extensions/drop-zone";
+@import "./extensions/dragula.min.css";
+
+//PerfectScrollbar
+@import "~perfect-scrollbar/css/perfect-scrollbar.css";
+
+
+// bootstrap-daterangepicker
+@import "~bootstrap-daterangepicker/daterangepicker";
+
+
+
+@import "./components.css";
+// кастомизация отображения таблиц
+@import "./datatables/styles";
+
+// login
+@import "./auth";
+
+.anchor, .anchor:focus, .anchor:hover{
+    color: #727E8C;
+}
+.anchor{
+    line-height: 48px;
+    font-size: 20px;
+}
+.text-transform-none{
+    text-transform: none !important;
+}
+.select2-search__field:focus{
+    outline: none !important;
+}
+.color-preview{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    border: 1px solid #DFE3E7;
+    border-radius: 50%;
+}
+
+.footer-form--sticky{
+    position: fixed;
+    bottom: 0;
+    background-color: #F2F4F4;
+    left: 0 !important;
+    width: 100%;
+    z-index: 2;
+    a{
+        color: $white !important;
+    }
+}
+.scroll-top {
+    bottom: 9% !important;
+}
+
+.dz-input{
+    display: none !important;
+}
+
+.draggable-list {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden !important;
+    padding: 5px;
+    background-color: #f2f4f4;
+    li{
+        margin-bottom: 5px;
+        i.fa-arrows-alt{
+            cursor: move;
+            margin-right: 15px;
+        }
+        i.fa-ban{
+            cursor: no-drop;
+            color: $red;
+            margin-right: 15px;
+        }
+        i.fa-info{
+            cursor: pointer;
+        }
+    }
+}
+
+fieldset{
+    margin-bottom: 1.5rem !important;
+}
+textarea{
+    height: 150px;
+    min-height: 150px;
+}
+
+.setting-textarea{
+    min-height: 400px;
+}
+
+#map {
+    height: 300px;
+}
+
+.card-filter{
+
+    .collapse-title{
+        float: right !important;
+        margin-right: 20px;
+    }
+}
+
+.ckf-ui-mode-desktop .ckf-files-page .ckf-page-regions .ui-header {
+    display: none !important;
+}
+
+/** resize modal large to file manager **/
+@media (min-width: 992px){
+    .dz-modal .modal-lg, .modal-xl {
+        max-width: 80%;
+    }
+}

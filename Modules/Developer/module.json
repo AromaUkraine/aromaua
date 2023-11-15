@@ -1,0 +1,14 @@
+{
+    "name": "Developer",
+    "alias": "developer",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Developer\\Providers\\DeveloperServiceProvider",
+        "Modules\\Developer\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

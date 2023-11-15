@@ -1,0 +1,18 @@
+{
+    "get_central_office": "api\/contact\/central-office",
+    "get_countries": "api\/contact\/countries",
+    "get_offices_with_country": "api\/contact\/offices",
+    "products": "api\/products",
+    "features": "api\/products\/features",
+    "sortable": "api\/sortable",
+    "move": "api\/move",
+    "slug": "api\/slug",
+    "checked": "api\/checked",
+    "language_switch": "api\/language\/switch",
+    "cms_search": "api\/cms_search",
+    "get-features": "api\/seo_catalog\/features",
+    "get-feature-values": "api\/seo_catalog\/feature_values",
+    "get-feature-value-name": "api\/feature-value\/get-input-name",
+    "seo_page_get": "api\/seo-page",
+    "subscribe": "api\/subscribe"
+}

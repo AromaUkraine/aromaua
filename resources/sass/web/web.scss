@@ -1,0 +1,16 @@
+﻿
+@import "./includes/_variables.scss";
+
+@import "./includes/style.css";
+
+@import "./includes/skeleton";
+
+.blog-article__link-img {
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+.hidden {
+    display: none !important;
+}

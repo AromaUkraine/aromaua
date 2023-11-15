@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+  mariadb:
+    ports:
+      - '3303:3306'
+    volumes:
+      - /Projects/Dump/cms-laravel:/var/lib/mysql
+
+  php:
+    environment:
+      XDEBUG_CONFIG: "remote_host=192.168.222.1 remote_enable=1"
+    build:
+      context: ./docker/php
+      args:
+        - PHP_TAG=$PHP_TAG
+    env_file:
+      - .env
+
+networks:
+  internal:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.221.0/28

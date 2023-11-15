@@ -1,0 +1,32 @@
+//Custom Styles
+table.dataTable {
+    thead {
+        tr{
+            th:nth-child(1){
+                max-width: 50px;
+                width: 50px;
+            }
+        }
+    }
+    tbody{
+        tr:hover{
+            box-shadow: 0 0 6px 0 rgb(0 0 0 / 12%);
+        }
+    }
+}
+tr.row-sort {
+    td > i.move{
+        cursor: move;
+    }
+    &.ui-sortable-helper {
+        background-color: palegoldenrod;
+    }
+}
+
+#add-novelty-page-data-table,#seo-catalog-product-data-table {
+    th:first-child, td:first-child,
+    th:last-child, td:last-child{
+        width: 0 !important;
+        display: none !important;
+    }
+}

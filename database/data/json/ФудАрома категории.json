@@ -1,0 +1,566 @@
+﻿[
+    {
+        "categories": [
+            {
+                "code_1c": "000000160",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "uk",
+                        "Text": "Загальний прайс харчові ароматизатори"
+                    },
+                    {
+                        "lang": "ru",
+                        "Text": "Общий прайс Пищевых Ароматизаторов"
+                    },
+                    {
+                        "lang": "en",
+                        "Text": "Общий прайс Пищевых Ароматизаторов"
+                    }
+                ],
+                "documentation": [
+                    "Паспорт качества",
+                    "Лист безопасности",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "ru",
+                    "uk"
+                ],
+                "Parent": 0,
+                "columns": [
+                    {
+                        "name": "",
+                        "SerialNumber": 4
+                    },
+                    {
+                        "name": "Наименование",
+                        "SerialNumber": 3
+                    },
+                    {
+                        "name": "Номер",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Описание профеля",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000281",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Тематический прайс пищевих ароматизаторов"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": 0,
+                "columns": [],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000237",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Кондитерские изделия - мучные изделия"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": "000000281",
+                "columns": [
+                    {
+                        "name": "Наименование",
+                        "SerialNumber": 4
+                    },
+                    {
+                        "name": "Описание профеля",
+                        "SerialNumber": 3
+                    },
+                    {
+                        "name": "Рекомендованная дозировка",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Цена",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000236",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Кондитерские изделия - мармелад"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": "000000281",
+                "columns": [
+                    {
+                        "name": "Наименование",
+                        "SerialNumber": 4
+                    },
+                    {
+                        "name": "Описание профеля",
+                        "SerialNumber": 3
+                    },
+                    {
+                        "name": "Рекомендованная дозировка",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Цена",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000238",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Сухие кисели, желе, мусы"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": "000000281",
+                "columns": [
+                    {
+                        "name": "Наименование",
+                        "SerialNumber": 4
+                    },
+                    {
+                        "name": "Описание профеля",
+                        "SerialNumber": 3
+                    },
+                    {
+                        "name": "Рекомендованная дозировка",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Цена",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000240",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Прочие направления"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": "000000281",
+                "columns": [
+                    {
+                        "name": "Наименование",
+                        "SerialNumber": 4
+                    },
+                    {
+                        "name": "Описание профеля",
+                        "SerialNumber": 3
+                    },
+                    {
+                        "name": "Рекомендованная дозировка",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Цена",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000239",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Майонезы, соусы"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": "000000281",
+                "columns": [
+                    {
+                        "name": "Наименование",
+                        "SerialNumber": 4
+                    },
+                    {
+                        "name": "Описание профеля",
+                        "SerialNumber": 3
+                    },
+                    {
+                        "name": "Рекомендованная дозировка",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Цена",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000249",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Ароматизаторы для рыбных прикормок"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": "000000281",
+                "columns": [
+                    {
+                        "name": "Наименование",
+                        "SerialNumber": 4
+                    },
+                    {
+                        "name": "Описание профеля",
+                        "SerialNumber": 3
+                    },
+                    {
+                        "name": "Рекомендованная дозировка",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Цена",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000234",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Кондитерские изделия - карамель, леденцы"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": "000000281",
+                "columns": [
+                    {
+                        "name": "Наименование",
+                        "SerialNumber": 4
+                    },
+                    {
+                        "name": "Описание профеля",
+                        "SerialNumber": 3
+                    },
+                    {
+                        "name": "Рекомендованная дозировка",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Цена",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000235",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Кондитерские изделия - начинки для конфет"
+                    }
+                ],
+                "documentation": [],
+                "langDocumentation": [],
+                "Parent": "000000281",
+                "columns": [
+                    {
+                        "name": "Наименование",
+                        "SerialNumber": 4
+                    },
+                    {
+                        "name": "Описание профеля",
+                        "SerialNumber": 3
+                    },
+                    {
+                        "name": "Рекомендованная дозировка",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Цена",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000136",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "uk",
+                        "Text": "Для безалкогольних напоїв"
+                    },
+                    {
+                        "lang": "ru",
+                        "Text": "Для безалькоголных напитков"
+                    },
+                    {
+                        "lang": "en",
+                        "Text": "For non alcohol beverages"
+                    }
+                ],
+                "documentation": [
+                    "Паспорт качества",
+                    "Лист безопасности",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "ru",
+                    "uk"
+                ],
+                "Parent": "000000281",
+                "columns": [
+                    {
+                        "name": "Наименование",
+                        "SerialNumber": 4
+                    },
+                    {
+                        "name": "Описание профеля",
+                        "SerialNumber": 3
+                    },
+                    {
+                        "name": "Рекомендованная дозировка",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Цена",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000242",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "ru",
+                        "Text": "Ароматизаторы сухие"
+                    }
+                ],
+                "documentation": [
+                    "Паспорт качества",
+                    "Лист безопасности",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "ru",
+                    "uk"
+                ],
+                "Parent": "000000281",
+                "columns": [
+                    {
+                        "name": "Наименование",
+                        "SerialNumber": 4
+                    },
+                    {
+                        "name": "Описание профеля",
+                        "SerialNumber": 3
+                    },
+                    {
+                        "name": "Рекомендованная дозировка",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Цена",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000219",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "uk",
+                        "Text": "Для масла та  маргарину"
+                    },
+                    {
+                        "lang": "ru",
+                        "Text": "Для масла и маргарина"
+                    },
+                    {
+                        "lang": "en",
+                        "Text": "For  butter and margarine"
+                    }
+                ],
+                "documentation": [
+                    "Паспорт качества",
+                    "Лист безопасности",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "ru",
+                    "uk"
+                ],
+                "Parent": "000000281",
+                "columns": [
+                    {
+                        "name": "Наименование",
+                        "SerialNumber": 4
+                    },
+                    {
+                        "name": "Описание профеля",
+                        "SerialNumber": 3
+                    },
+                    {
+                        "name": "Рекомендованная дозировка",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Цена",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000142",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "uk",
+                        "Text": "Для молочних виробів"
+                    },
+                    {
+                        "lang": "ru",
+                        "Text": "Для молочных изделий"
+                    },
+                    {
+                        "lang": "en",
+                        "Text": "For milk"
+                    }
+                ],
+                "documentation": [
+                    "Паспорт качества",
+                    "Лист безопасности",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "ru",
+                    "uk"
+                ],
+                "Parent": "000000281",
+                "columns": [
+                    {
+                        "name": "Наименование",
+                        "SerialNumber": 4
+                    },
+                    {
+                        "name": "Описание профеля",
+                        "SerialNumber": 3
+                    },
+                    {
+                        "name": "Рекомендованная дозировка",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Цена",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            },
+            {
+                "code_1c": "000000143",
+                "description": [],
+                "text": [],
+                "name": [
+                    {
+                        "lang": "uk",
+                        "Text": "Для алкогольних напоїв"
+                    },
+                    {
+                        "lang": "ru",
+                        "Text": "Для алкогольных напитков"
+                    },
+                    {
+                        "lang": "en",
+                        "Text": "For wine "
+                    }
+                ],
+                "documentation": [
+                    "Паспорт качества",
+                    "Лист безопасности",
+                    "Спецификация"
+                ],
+                "langDocumentation": [
+                    "ru",
+                    "uk"
+                ],
+                "Parent": "000000281",
+                "columns": [
+                    {
+                        "name": "Наименование",
+                        "SerialNumber": 4
+                    },
+                    {
+                        "name": "Описание профеля",
+                        "SerialNumber": 3
+                    },
+                    {
+                        "name": "Рекомендованная дозировка",
+                        "SerialNumber": 2
+                    },
+                    {
+                        "name": "Цена",
+                        "SerialNumber": 1
+                    }
+                ],
+                "type_aroma": 0
+            }
+        ]
+    }
+]

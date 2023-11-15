@@ -1,0 +1,14 @@
+{
+    "name": "Information",
+    "alias": "information",
+    "description": "Информационный блок",
+    "component": "page",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Information\\Providers\\InformationServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Map",
+    "alias": "map",
+    "description": "Карты",
+    "component": "page",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Map\\Providers\\MapServiceProvider",
+        "Modules\\Map\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
